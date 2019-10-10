@@ -1,0 +1,4 @@
+Virtual space size: vss = 2^16 bit
+Transfering to KB: vss=2^(16-3-10)KB = 8KB
+Number of entries = vss/size of a page = 8KB/8KB = 1
+Answer: 1 entry.

@@ -1,0 +1,4 @@
+Virtual and physical addresses are independent, there is some mapping between them two 
+(or can be the same sometimes). Virtual addresses refer to some virtual store, while physical 
+addresses refer to hardware ones in physical memory. Size of virtual space isn't limited by 
+physical addresses, it is limited only by size of virtual addresses.
