@@ -29,7 +29,7 @@ int get_ind(int *arr, int size, int ell)
 
 void main(int argc, char **argv)
 {
-    int frame_count = atoi(argv[0]);
+    int frame_count = atoi(argv[1]);
 
     FILE *f = fopen("input.txt", "r");
 
@@ -40,7 +40,7 @@ void main(int argc, char **argv)
     int *ram = malloc(ram_arr_size);
     memset(ram, -1, frame_count * sizeof(int));
 
-    char *page_counter = calloc(frame_count, sizeof(char));
+    unsigned char *page_counter = calloc(frame_count, sizeof(char));
 
     int n_miss = 0;
     int n_hit = 0;
