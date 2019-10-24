@@ -1,0 +1,27 @@
+total 0
+-rw-rw-rw- 3 isu isu   0 Oct 24 23:14 _ex1.txt
+-rw-rw-rw- 3 isu isu   0 Oct 24 23:14 _ex1_1.txt
+-rw-rw-rw- 3 isu isu   0 Oct 24 23:14 _ex1_2.txt
+-rw-rw-rw- 1 isu isu   0 Oct 24 23:57 _ex3.txt
+-rw-rw-rw- 1 isu isu 107 Oct 24 23:22 ex1.txt
+-rw-rw-rw- 1 isu isu  67 Oct 24 23:33 ex2.txt
+-rw-rw-rw- 1 isu isu   0 Oct 25 00:08 ex3.txt
+total 0
+-rw-rw-rw- 3 isu isu   0 Oct 24 23:14 _ex1.txt
+-rw-rw-rw- 3 isu isu   0 Oct 24 23:14 _ex1_1.txt
+-rw-rw-rw- 3 isu isu   0 Oct 24 23:14 _ex1_2.txt
+-rwxrw-rwx 1 isu isu   0 Oct 24 23:57 _ex3.txt
+-rw-rw-rw- 1 isu isu 107 Oct 24 23:22 ex1.txt
+-rw-rw-rw- 1 isu isu  67 Oct 24 23:33 ex2.txt
+-rw-rw-rw- 1 isu isu 338 Oct 25 00:08 ex3.txt
+total 4
+-rw-rw-rw- 3 isu isu   0 Oct 24 23:14 _ex1.txt
+-rw-rw-rw- 3 isu isu   0 Oct 24 23:14 _ex1_1.txt
+-rw-rw-rw- 3 isu isu   0 Oct 24 23:14 _ex1_2.txt
+-rwxrwxrwx 1 isu isu   0 Oct 24 23:57 _ex3.txt
+-rw-rw-rw- 1 isu isu 107 Oct 24 23:22 ex1.txt
+-rw-rw-rw- 1 isu isu  67 Oct 24 23:33 ex2.txt
+-rw-rw-rw- 1 isu isu 676 Oct 25 00:11 ex3.txt
+660: (-rw-rw----) Owner and Group have permission to read and write
+775: (-rwxrwxr-x) Owner and Group have all permissions, Others have permissions to read and write
+777: (-rwxrwxrwx) All users (Owner, Group, Others) have all permissions
