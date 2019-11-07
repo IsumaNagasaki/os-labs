@@ -1,0 +1,2 @@
+Program 1 prints 2 "Hello\n", while Program 2 prints 1 "Hello\n" and then 2 "\n". 
+It probably has to do with the default buffering of the stdout.
