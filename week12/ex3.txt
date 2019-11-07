@@ -1,0 +1,23 @@
+1. With increase in fileA size the time obviously increases.
+    fileA - 1M  time - 0.056s
+    fileA - 2M  time - 0.074s
+    fileA - 3M  time - 0.096s
+The increase seems to be linear.
+
+2. With the increase of buffer size the copy program works faster
+Most probably the advance in speed will be lost when the buffer reaches the file size.
+    fileA - 10K
+    DBUF_SIZE = 1   time = 0.260s
+    DBUF_SIZE = 2   time = 0.149s
+    DBUF_SIZE = 3   time = 0.114s
+    DBUF_SIZE = 4   time = 0.091s
+
+3. With O_SYNC
+    fileA - 10K
+    DBUF_SIZE = 1   time = 0.238s
+    DBUF_SIZE = 2   time = 0.142s
+    DBUF_SIZE = 3   time = 0.113s
+    DBUF_SIZE = 4   time = 0.088s
+
+    In general it's a bit faster than without O_SYNC,
+     but with increase in buffer size the difference seems to become smaller.
