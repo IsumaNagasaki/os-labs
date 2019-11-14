@@ -1,0 +1,15 @@
+1. Deadlock prevention is a most effective way to deal with deadlocks as it eliminates the possibility of their
+creation. But it is also the most costly in terms of resources and can not be implemented in all systems.
+In detail:
+
+    Mutual Exclusion - cannot be implemented everywhere
+    Hold and Wait - may lead to starvation and slow down therefore
+    No preemption - produces errors
+
+Therefore we can see that as good as it seems in theory, this mechanism is usually not implemented.
+
+2. Deadlock avoidance is less strict and in theory can be implemented everywhere, though it is costly due to checks
+at resource request time.
+
+3. Deadlock prevention is a process which is usually used in real time operating systems, as most of the time deadlock
+doesn't happen and it produces some speed boost, but when it does, the system never stops working.
